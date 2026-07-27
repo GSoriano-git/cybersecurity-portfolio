@@ -1,16 +1,23 @@
 # 🛡️ Gabriel Soriano | Cybersecurity Portfolio
 
-Welcome! I am an aspiring **Cybersecurity Analyst / SOC Analyst** with hands-on training in security operations, threat detection, incident response, and risk management frameworks.
+## 👤 About Me
+I am a **Computer Engineering (BSCpE) graduate** transitioning into **Cybersecurity**, combining a strong foundation in network architecture and operating systems with hands-on training in security operations.
 
-This repository showcases my practical labs, technical write-ups, and security automation projects completed during my **Google Cybersecurity Professional Certificate** and independent hands-on practice.
+Armed with practical experience in **SIEM log analysis, Linux CLI, SQL database auditing, and Python security automation**, I excel at analyzing system-level behavior to detect anomalies and triage security alerts. Driven by a commitment to proactive defense and data integrity, I apply a methodical, engineering-focused approach to incident response and threat monitoring.
+
+Having completed the **Google Cybersecurity Professional Certificate**, I am actively seeking an entry-level **SOC Analyst** or **Cybersecurity Analyst** role where I can help safeguard critical infrastructure and defend organizational assets against modern cyber threats.
+
+---
+
+Welcome to my portfolio! This repository showcases my practical labs, technical write-ups, and security automation projects completed during my **Google Cybersecurity Professional Certificate** training and independent hands-on practice.
 
 ---
 
 ## 🎯 Technical Skill Set
 
-* **Security Operations & SIEM:** Log Analysis, Incident Response, Alert Triage ()
-* **Scripting & Querying:** Python, SQL
-* **Operating Systems & Networking:** Linux CLI, File Permissions, TCP/IP, OSI Model, Wireshark
+* **Security Operations & SIEM:** Log Analysis, Incident Response, Alert Triage
+* **Scripting & Querying:** Python (Log Parsing, Automation), SQL (Database Audits, Data Filtering)
+* **Operating Systems & Networking:** Linux CLI, File Permissions (`chmod`/`chown`), TCP/IP, OSI Model, Wireshark
 * **Frameworks & Compliance:** NIST Cybersecurity Framework (CSF), CIA Triad, OWASP Top 10
 
 ---
@@ -30,11 +37,11 @@ This repository showcases my practical labs, technical write-ups, and security a
 ---
 
 ## 📜 Certifications & Credentials
-* **Google Cybersecurity Professional Certificate** – *In progress*
-* Preparing for **CompTIA Security+**
+* **Google Cybersecurity Professional Certificate** – *Completed*
+* *Currently Preparing for:* **CompTIA Security+**
 
 ---
 
 ## 📫 Connect with Me
-* **LinkedIn:** www.linkedin.com/in/gabrielsoriano06
-* **Email:** gsoriano.hs@gmail.com
+* **LinkedIn:** [linkedin.com/in/gabrielsoriano06](https://www.linkedin.com/in/gabrielsoriano06)
+* **Email:** [gsoriano.hs@gmail.com](mailto:gsoriano.hs@gmail.com)
