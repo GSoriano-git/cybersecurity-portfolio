@@ -63,3 +63,6 @@ Executes `chmod g-x,o-rwx drafts` (or `chmod 700 drafts`) to strip group execute
 
 **Description:**  
 This project covers auditing and remediating Linux file access controls using `ls` and `chmod`. Initial permission states were audited using `ls -l` for standard files and `ls -la` for hidden files and directory entries. Permission remediation was performed using target-specific `chmod` arguments: stripping world-write bits (`o-w`), hardening hidden files to read-only (`u-w,g-w`), and restricting directory traversal. Every modification was systematically verified using relative `ls` checks to confirm alignment with principle-of-least-privilege security policies.
+
+**Full document with visuals**
+[View the Full Report Here:](File_permissions_in_Linux.pdf)
