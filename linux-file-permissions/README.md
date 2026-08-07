@@ -2,12 +2,11 @@
 
 ## Project description
 
-This project is composed of different demonstration on appropriate Linux commands to manage file permissions on a Linux directory
+This project demonstrates appropriate Linux commands to audit and manage file permissions within a Linux directory structure.
 
 ## Check file and directory details
 
-The command to show and check for permissions is: `ls -l`  
-![][image1]
+The command to inspect permissions is: `ls -l`  
 
 ### Current file permissions
 This document displays the file structure of the `/home/researcher2/projects` directory and the permissions of the files and subdirectory it contains.
@@ -42,32 +41,25 @@ There is also one subdirectory inside the `projects` directory named `drafts`. T
 
 ## Describe the permissions string
 
-**Permission Analysis:** Executing `ls -l` reveals the access control configurations for the directory contents. The `drafts` directory is restricted with owner read/write/execute and group execute permissions (`drwx--x---`), while the text files exhibit varying levels of access: `project_k.txt` is world-writable (`-rw-rw-rw-`), `project_m.txt` is restricted strictly to the owner and group (`-rw-r-----`), and both `project_r.txt` and `project_t.txt` grant write access to the group with read-only access for others (`-rw-rw-r--`).    
-![][image2]
+**Description:**  
+Analyzing the output of `ls -l` reveals the initial access control configurations for the `/home/researcher2/projects` directory. The `drafts` directory is configured as `drwx--x---` (710), restricting traversal to the owner and group while blocking external access. The text files exhibit distinct access levels: `project_k.txt` is world-writable (`-rw-rw-rw-` / 666), `project_m.txt` is restricted to owner read/write and group read (`-rw-r-----` / 640), and both `project_r.txt` and `project_t.txt` grant read/write access to owner and group with read-only access for others (`-rw-rw-r--` / 664).
 
 ## Change file permissions
 
-**Permission Remediation:** Executing `chmod o-w project_k.txt` revokes write permissions for 'others' (world), hardening the file from an overly permissive state (`-rw-rw-rw-`) down to read-only for unprivileged users (`-rw-rw-r--`). The subsequent `ls -l` command verifies that world-write access was successfully stripped while maintaining standard owner and group access.    
-![][image3]
+**Description:**  
+Executes `chmod o-w project_k.txt` to revoke world-write access from an overly permissive file, reducing its permission string from `-rw-rw-rw-` (666) to `-rw-rw-r--` (664). This remediation secures the file against unauthorized modification by unprivileged users while preserving owner and group access. The modification is verified by executing `ls -l project_k.txt`.
 
 ## Change file permissions on a hidden file
 
-**Hidden File Access Control:** Executing `chmod u-w,g-w .project_x.txt` revokes write access for both the file owner and the group, converting the hidden file into a strict read-only state (`-r--------`). The subsequent `ls -la` command—using the `-a` flag to reveal hidden files—verifies that write permissions were successfully stripped for both entities, leaving only owner read access.    
-![][image4]
+**Description:**  
+Executes `chmod u-w,g-w .project_x.txt` to strip write privileges from both the file owner and group, transitioning the hidden file from `-rw--w----` (620) to a read-only state (`-r--------` / 400). The `ls -la` command—utilizing the `-a` flag to list hidden entries—is run immediately after to verify the permission bit adjustment.
 
 ## Change directory permissions
 
-**Directory Access Restriction & Hardening:** Executing the permission update strips all group and world permissions from the `drafts` directory, hardening its access state to `drwx------`. The resulting `ls -la` directory listing confirms that all access controls—read, write, and directory traversal (`x`)—have been completely revoked for both `research_team` group members and unprivileged external users, leaving the directory strictly isolated to the owner (`researcher2`).    
-![][image5]  
-![][image6]
+**Description:**  
+Executes `chmod g-x,o-rwx drafts` (or `chmod 700 drafts`) to strip group execute permissions and all external access from the subdirectory, hardening its state to `drwx------` (700). This modification prevents unauthorized users from traversing or viewing the directory contents. Verification is confirmed via `ls -la`.
 
 ## Summary
 
-**Project Overview:** This project provides a practical demonstration of managing and auditing file access controls across a Linux directory structure using terminal commands.  
-**Auditing Access Controls (`ls -l` & `ls -la`):** Used `ls -l` to analyze initial permission strings across standard files and `ls -la` to inspect hidden files (such as `.project_x.txt`) and directory traversal permissions (`.`).  
-**Permission Remediation & Hardening (`chmod`):**
-
-* **Unprivileged Access Removal:** Applied `chmod o-w project_k.txt` to strip world-write access, securing the file down to a read-only state for external users (`-rw-rw-r--`).  
-* **Hidden File Isolation:** Executed `chmod u-w,g-w .project_x.txt` to revoke owner and group write permissions, locking the sensitive file into a strict read-only state (`-r--------`).  
-* **Directory Access Restriction:** Utilized `chmod` to remove group and world permissions on the `drafts` directory (`drwx------`), preventing unauthorized users from entering or inspecting its contents.
-**Verification Workflow:** Followed every `chmod` permission modification with a relative `ls -l` or `ls -la` audit to visually confirm that the targeted permission bits were successfully updated and aligned with security policies.
+**Description:**  
+This project covers auditing and remediating Linux file access controls using `ls` and `chmod`. Initial permission states were audited using `ls -l` for standard files and `ls -la` for hidden files and directory entries. Permission remediation was performed using target-specific `chmod` arguments: stripping world-write bits (`o-w`), hardening hidden files to read-only (`u-w,g-w`), and restricting directory traversal. Every modification was systematically verified using relative `ls` checks to confirm alignment with principle-of-least-privilege security policies.
