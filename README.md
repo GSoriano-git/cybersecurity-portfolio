@@ -1,7 +1,7 @@
 # 🛡️ Gabriel Soriano | Cybersecurity Portfolio
 
 ## 👤 About Me
-I am a **Computer Engineering (BSCpE) graduate** transitioning into **Cybersecurity**, combining a strong foundation in network architecture and operating systems with hands-on training in security operations.
+I am a **Computer Engineering (BSCpE) graduate** transitioning into **Cybersecurity**
 
 Armed with practical experience in **SIEM log analysis, Linux CLI, SQL database auditing, and Python security automation**, I'm great at analyzing system-level behavior to detect anomalies and triage security alerts. Driven by a commitment to proactive defense and data integrity, I apply a methodical, engineering-focused approach to incident response and threat monitoring.
 
