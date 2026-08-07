@@ -28,6 +28,3 @@
 
 ---
 
-| Reflections/Notes: |
-| :---- |
-
