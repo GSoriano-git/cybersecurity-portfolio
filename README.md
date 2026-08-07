@@ -18,7 +18,7 @@ Welcome to my portfolio! This repository showcases my practical labs, technical 
 * **Security Operations & SIEM:** Log Analysis, Incident Response, Alert Triage
 * **Scripting & Querying:** Python Automation, SQL
 * **Operating Systems & Networking:** Linux CLI, File Permissions, TCP/IP, OSI Model, Wireshark
-* **Frameworks & Compliance:** NIST Cybersecurity Framework (CSF), CIA Triad, OWASP Top 10
+* **Frameworks & Compliance:** NIST Cybersecurity Framework (CSF), CIA Triad
 
 ---
 
