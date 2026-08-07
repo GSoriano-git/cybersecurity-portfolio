@@ -1,9 +1,9 @@
 # 🛡️ Gabriel Soriano | Cybersecurity Portfolio
 
 ## 👤 About Me
-I am a **Computer Engineering (BSCpE) graduate** transitioning into **Cybersecurity**, combining a strong foundation in network architecture and operating systems with hands-on training in security operations.
+I am a **Computer Engineering (BSCpE) graduate** transitioning into **Cybersecurity**
 
-Armed with practical experience in **SIEM log analysis, Linux CLI, SQL database auditing, and Python security automation**, I excel at analyzing system-level behavior to detect anomalies and triage security alerts. Driven by a commitment to proactive defense and data integrity, I apply a methodical, engineering-focused approach to incident response and threat monitoring.
+Armed with practical experience in **SIEM log analysis, Linux CLI, SQL database auditing, and Python security automation**, I'm great at analyzing system-level behavior to detect anomalies and triage security alerts. Driven by a commitment to proactive defense and data integrity, I apply a methodical, engineering-focused approach to incident response and threat monitoring.
 
 Having completed the **Google Cybersecurity Professional Certificate**, I am actively seeking an entry-level **SOC Analyst** or **Cybersecurity Analyst** role where I can help safeguard critical infrastructure and defend organizational assets against modern cyber threats.
 
@@ -18,7 +18,7 @@ Welcome to my portfolio! This repository showcases my practical labs, technical 
 * **Security Operations & SIEM:** Log Analysis, Incident Response, Alert Triage
 * **Scripting & Querying:** Python Automation, SQL
 * **Operating Systems & Networking:** Linux CLI, File Permissions, TCP/IP, OSI Model, Wireshark
-* **Frameworks & Compliance:** NIST Cybersecurity Framework (CSF), CIA Triad, OWASP Top 10
+* **Frameworks & Compliance:** NIST Cybersecurity Framework (CSF), CIA Triad
 
 ---
 
