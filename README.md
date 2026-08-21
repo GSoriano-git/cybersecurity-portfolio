@@ -38,7 +38,7 @@ Welcome to my portfolio! This repository showcases my practical labs, technical 
 
 ## 📁 Other Projects
 
-### 1
+### /incident-report-analysis
 ### 2
 ### 3
 
