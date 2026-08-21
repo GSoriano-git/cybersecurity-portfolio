@@ -38,9 +38,9 @@ Welcome to my portfolio! This repository showcases my practical labs, technical 
 
 ## 📁 Other Projects
 
-### [Incident Report Analysis Folder](./incident-report-analysis):
-### 2
-### 3
+### [Incident Report Analysis](./incident-report-analysis)
+### [Linux File Permissions](./linux-file-permissions)
+### [SQL Filters Security Audit](./sql-filters-security-audit)
 
 ---
 
