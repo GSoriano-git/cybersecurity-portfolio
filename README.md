@@ -22,7 +22,7 @@ Welcome to my portfolio! This repository showcases my practical labs, technical 
 
 ---
 
-## 📁 Featured Projects & Labs
+## 📁 Projects & Labs
 
 ### 🐍 1. Python Security Automation *In progress*
 * **[Python Log Parser](./python-log-parser):** Created a Python script to scan user access logs and dynamically filter out unauthorized IP addresses.
@@ -33,6 +33,14 @@ Welcome to my portfolio! This repository showcases my practical labs, technical 
 ### 🐧 3. Linux & SQL Security Audits *In progress*
 * **[Linux File Permissions Audit](./linux-audit):** Updated user access roles and file permissions via Bash commands to enforce the Principle of Least Privilege.
 * **[SQL Database Security Filtering](./sql-queries):** Executed SQL queries to isolate suspicious login attempts and retrieve employee access records.
+
+---
+
+## 📁 Other Projects
+
+### 1
+### 2
+### 3
 
 ---
 
