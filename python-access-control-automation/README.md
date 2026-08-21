@@ -116,4 +116,4 @@ print(updated_text)
 
 * **Data Processing Efficiency:** Leveraging Python string manipulation (.split(), .join()) and file management methods provides a scalable foundation for handling larger network access logs and security intelligence lists.
 
-*[View the full documentation](./python-access-control-automation/python_access_contol_automation_full_documentation.pdf)*
+*[View the full documentation](./python-access-control-automation/full_documentation.pdf)*
