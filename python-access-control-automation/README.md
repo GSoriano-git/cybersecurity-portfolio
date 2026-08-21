@@ -110,8 +110,8 @@ print(updated_text)
 ---
 
 ### Summary & Security Impact
-Automated Privilege Management: Replaced manual text editing with an automated Python script, reducing human error when modifying critical security boundary files.
+* **Automated Privilege Management:** Replaced manual text editing with an automated Python script, reducing human error when modifying critical security boundary files.
 
-Code Reusability: Modularizing the solution into update_file() allows security operations teams to integrate this logic into larger security orchestration pipelines or run scheduled access review workflows effortlessly.
+* **Code Reusability:** Modularizing the solution into update_file() allows security operations teams to integrate this logic into larger security orchestration pipelines or run scheduled access review workflows effortlessly.
 
-Data Processing Efficiency: Leveraging Python string manipulation (.split(), .join()) and file management methods provides a scalable foundation for handling larger network access logs and security intelligence lists.
+* **Data Processing Efficiency:** Leveraging Python string manipulation (.split(), .join()) and file management methods provides a scalable foundation for handling larger network access logs and security intelligence lists.
