@@ -38,7 +38,7 @@ Welcome to my portfolio! This repository showcases my practical labs, technical 
 
 ## 📁 Other Projects
 
-* **[Incident Report Analysis](./incident-report-analysis):** Detailed analysis of an ICMP flood DoS attack, outlining immediate mitigation tactics, firewall rate-limiting, IDS/IPS deployment, and NIST CSF alignment Detailed analysis of an ICMP flood DoS attack, outlining immediate mitigation tactics, firewall rate-limiting, IDS/IPS deployment, and NIST CSF alignment
+* **[Incident Report Analysis](./incident-report-analysis):** Detailed analysis of an ICMP flood DoS attack, outlining immediate mitigation tactics, firewall rate-limiting, IDS/IPS deployment, and NIST CSF alignment Detailed analysis of an ICMP flood DoS attack, outlining immediate mitigation tactics, firewall rate-limiting, IDS/IPS deployment, and NIST CSF alignment.
 * **[Linux File Permissions](./linux-file-permissions):** Linux access control project detailing permission string analysis, hidden file management, directory traversal restrictions, and permission remediation workflows using *chmod* and *ls*.
 * **[SQL Filters Security Audit](./sql-filters-security-audit):** SQL-based security log analysis and asset auditing using complex conditional logic, wildcards, and boolean operators across login attempt and employee databases.
 
