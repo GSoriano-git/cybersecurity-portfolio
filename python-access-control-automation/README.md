@@ -115,3 +115,5 @@ print(updated_text)
 * **Code Reusability:** Modularizing the solution into update_file() allows security operations teams to integrate this logic into larger security orchestration pipelines or run scheduled access review workflows effortlessly.
 
 * **Data Processing Efficiency:** Leveraging Python string manipulation (.split(), .join()) and file management methods provides a scalable foundation for handling larger network access logs and security intelligence lists.
+
+*[View the full documentation](./python-access-control-automation/python_access_contol_automation_full_documentation.pdf)*
