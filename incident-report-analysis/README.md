@@ -15,11 +15,14 @@ An external malicious actor exploited an unconfigured firewall to launch a Denia
   * Deployed Intrusion Detection/Prevention Systems (IDS/IPS) to filter suspicious traffic.
   * Integrated network monitoring software for continuous anomaly detection.
 
-*This analysis documents the incident lifecycle and long-term security strategy using the **NIST Cybersecurity Framework (CSF)**.*
+*This analysis documents the incident lifecycle and long-term security strategy using the **NIST (National Institute of Standards and Technology) Cybersecurity Framework (CSF)**.*
 
 ---
 
 ## 🛡️ NIST Cybersecurity Framework (CSF) Analysis
+
+> **What is NIST?**  
+> **NIST** stands for the **National Institute of Standards and Technology**, a non-regulatory agency of the U.S. Department of Commerce. The **NIST Cybersecurity Framework (CSF)** provides industry-standard guidelines, best practices, and controls to help organizations manage and reduce cybersecurity risks across five core functions: *Identify, Protect, Detect, Respond, and Recover*.
 
 | NIST CSF Function | Incident Analysis Details |
 | :--- | :--- |
