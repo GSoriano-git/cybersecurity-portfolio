@@ -26,7 +26,6 @@ Welcome to my portfolio! This repository showcases my practical labs, technical 
 
 ### 🛡️ Incident Response & Analysis
 * **[Incident Report Analysis](./incident-report-analysis):** Detailed analysis of an ICMP flood DoS attack, outlining immediate mitigation tactics, firewall rate-limiting, IDS/IPS deployment, and NIST CSF alignment.
-* **[SOC Incident Response Write-Up](./incident-response-lab):** *(In progress)* Analyzed a simulated phishing attack, triaged alerts in a SIEM dashboard, and documented containment steps using NIST IR guidelines.
 
 ### 🐧 Linux & SQL Security Audits
 * **[Linux File Permissions](./linux-file-permissions):** Linux access control project detailing permission string analysis, hidden file management, directory traversal restrictions, and permission remediation workflows using `chmod` and `ls` to enforce the Principle of Least Privilege.
@@ -34,7 +33,6 @@ Welcome to my portfolio! This repository showcases my practical labs, technical 
 
 ### 🐍 Python Security Automation
 * **[Python Access Control Automation](./python-access-control-automation):** Automates security access updates using reusable Python logic to process network logs efficiently and eliminate manual errors.
-* **[Python Log Parser](./python-log-parser):** *(In progress)* Created a Python script to scan user access logs and dynamically filter out unauthorized IP addresses.
 
 ---
 
