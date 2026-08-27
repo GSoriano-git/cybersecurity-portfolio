@@ -46,7 +46,7 @@ Welcome to my portfolio! This repository showcases my practical labs, technical 
 ---
 
 ## 📜 Certifications
-* **Google Cybersecurity Professional Certificate** – *In progress*
+* **Google Cybersecurity Professional Certificate** | Google & Coursera | Issue August 2026
 
 ---
 
