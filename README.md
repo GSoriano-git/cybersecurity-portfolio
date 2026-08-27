@@ -3,7 +3,7 @@
 ## 👤 About Me
 I am a **Computer Engineering (BSCpE) graduate** transitioning into **Cybersecurity**.
 
-Armed with practical experience in **SIEM log analysis, Linux CLI, SQL database auditing, and Python security automation**, Experienced in analyzing system-level behavior to detect anomalies and triage security alerts. Guided by a commitment to proactive defense and data integrity, I apply a methodical, engineering-focused approach to incident response and threat monitoring.
+With practical experience in **SIEM log analysis, Linux CLI, SQL database auditing, and Python security automation**, I am experienced in analyzing system-level behavior to detect anomalies and triage security alerts. Guided by a commitment to proactive defense and data integrity, I apply a methodical, engineering-focused approach to incident response and threat monitoring.
 
 Having completed the **Google Cybersecurity Professional Certificate**, I am actively seeking an entry-level **SOC Analyst** or **Cybersecurity Analyst** role where I can help safeguard critical infrastructure and defend organizational assets against modern cyber threats.
 
