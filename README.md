@@ -1,9 +1,9 @@
 # 🛡️ Gabriel Soriano | Cybersecurity Portfolio
 
 ## 👤 About Me
-I am a **Computer Engineering (BSCpE) graduate** transitioning into **Cybersecurity**
+I am a **Computer Engineering (BSCpE) graduate** transitioning into **Cybersecurity**.
 
-Armed with practical experience in **SIEM log analysis, Linux CLI, SQL database auditing, and Python security automation**, I'm great at analyzing system-level behavior to detect anomalies and triage security alerts. Driven by a commitment to proactive defense and data integrity, I apply a methodical, engineering-focused approach to incident response and threat monitoring.
+Armed with practical experience in **SIEM log analysis, Linux CLI, SQL database auditing, and Python security automation**, I excel at analyzing system-level behavior to detect anomalies and triage security alerts. Driven by a commitment to proactive defense and data integrity, I apply a methodical, engineering-focused approach to incident response and threat monitoring.
 
 Having completed the **Google Cybersecurity Professional Certificate**, I am actively seeking an entry-level **SOC Analyst** or **Cybersecurity Analyst** role where I can help safeguard critical infrastructure and defend organizational assets against modern cyber threats.
 
@@ -24,29 +24,22 @@ Welcome to my portfolio! This repository showcases my practical labs, technical 
 
 ## 📁 Projects & Labs
 
-### 🐍 1. Python Security Automation *In progress*
-* **[Python Log Parser](./python-log-parser):** Created a Python script to scan user access logs and dynamically filter out unauthorized IP addresses.
+### 🛡️ Incident Response & Analysis
+* **[Incident Report Analysis](./incident-report-analysis):** Detailed analysis of an ICMP flood DoS attack, outlining immediate mitigation tactics, firewall rate-limiting, IDS/IPS deployment, and NIST CSF alignment.
+* **[SOC Incident Response Write-Up](./incident-response-lab):** *(In progress)* Analyzed a simulated phishing attack, triaged alerts in a SIEM dashboard, and documented containment steps using NIST IR guidelines.
 
-### 📊 2. SIEM & Incident Response *In progress*
-* **[SOC Incident Response Write-Up](./incident-response-lab):** Analyzed a simulated phishing attack, triaged alerts in a SIEM dashboard, and documented containment steps using NIST IR guidelines.
-
-### 🐧 3. Linux & SQL Security Audits *In progress*
-* **[Linux File Permissions Audit](./linux-audit):** Updated user access roles and file permissions via Bash commands to enforce the Principle of Least Privilege.
-* **[SQL Database Security Filtering](./sql-queries):** Executed SQL queries to isolate suspicious login attempts and retrieve employee access records.
-
----
-
-## 📁 Other Projects
-
-* **[Incident Report Analysis](./incident-report-analysis):** Detailed analysis of an ICMP flood DoS attack, outlining immediate mitigation tactics, firewall rate-limiting, IDS/IPS deployment, and NIST CSF alignment Detailed analysis of an ICMP flood DoS attack, outlining immediate mitigation tactics, firewall rate-limiting, IDS/IPS deployment, and NIST CSF alignment.
-* **[Linux File Permissions](./linux-file-permissions):** Linux access control project detailing permission string analysis, hidden file management, directory traversal restrictions, and permission remediation workflows using *chmod* and *ls*.
+### 🐧 Linux & SQL Security Audits
+* **[Linux File Permissions](./linux-file-permissions):** Linux access control project detailing permission string analysis, hidden file management, directory traversal restrictions, and permission remediation workflows using `chmod` and `ls` to enforce the Principle of Least Privilege.
 * **[SQL Filters Security Audit](./sql-filters-security-audit):** SQL-based security log analysis and asset auditing using complex conditional logic, wildcards, and boolean operators across login attempt and employee databases.
+
+### 🐍 Python Security Automation
 * **[Python Access Control Automation](./python-access-control-automation):** Automates security access updates using reusable Python logic to process network logs efficiently and eliminate manual errors.
+* **[Python Log Parser](./python-log-parser):** *(In progress)* Created a Python script to scan user access logs and dynamically filter out unauthorized IP addresses.
 
 ---
 
 ## 📜 Certifications
-* **Google Cybersecurity Professional Certificate** | Google & Coursera | Issue August 2026
+* **Google Cybersecurity Professional Certificate** | Google & Coursera *(Issued: August 2026)*
 
 ---
 
