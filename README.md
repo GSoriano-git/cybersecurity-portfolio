@@ -32,7 +32,7 @@ Welcome to my portfolio! This repository showcases my practical labs, technical 
 * **[SQL Filters Security Audit](./sql-filters-security-audit):** SQL-based security log analysis and asset auditing using complex conditional logic, wildcards, and boolean operators across login attempt and employee databases.
 
 ### 🐍 Python Security Automation
-* **[Python Access Control Automation](./python-access-control-automation):** Automates security access updates using reusable Python logic to process network logs efficiently and eliminate manual errors.
+* **[Python Access Control Automation](./python-security-automation):** Automates security access updates using reusable Python logic to process network logs efficiently and eliminate manual errors.
 
 ---
 
