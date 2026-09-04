@@ -28,8 +28,7 @@ Welcome to my portfolio! This repository showcases my practical labs, technical 
 * **[Incident Report Analysis](./incident-report-analysis):** Detailed analysis of an ICMP flood DoS attack, outlining immediate mitigation tactics, firewall rate-limiting, IDS/IPS deployment, and NIST CSF alignment.
 
 ### 🐧 Linux & SQL Security Audits
-* **[Linux File Permissions](./linux-file-permissions):** Linux access control project detailing permission string analysis, hidden file management, directory traversal restrictions, and permission remediation workflows using `chmod` and `ls` to enforce the Principle of Least Privilege.
-* **[SQL Filters Security Audit](./sql-filters-security-audit):** SQL-based security log analysis and asset auditing using complex conditional logic, wildcards, and boolean operators across login attempt and employee databases.
+* **[Linux & SQL Security Audits](./linux-and-sql-security-audits):** Hands-on security audits combining Linux access control remediation to enforce the Principle of Least Privilege with SQL database log analysis using complex filtering, wildcards, and conditional logic.
 
 ### 🐍 Python Security Automation
 * **[Python Access Control Automation](./python-security-automation):** Suite of Python automation scripts designed to streamline SOC operations, featuring automated access control log parsing, live SIEM log correlation against IP blocklists, and endpoint scan triage that isolates malicious hashes and unauthorized executables.
