@@ -1,0 +1,1 @@
+192.168.1.10|alice|LOW 10.0.0.99|admin|CRITICAL 192.168.1.45|bob|LOW 172.16.0.15|unknown|HIGH 192.168.1.88|charlie|LOW 10.0.0.99|service_acc|CRITICAL
